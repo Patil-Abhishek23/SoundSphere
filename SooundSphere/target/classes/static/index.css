@@ -1,0 +1,72 @@
+/* Style for the container */
+body{
+    font-family: futura;
+    background-color: rgb(37, 9, 101);
+}
+.container {
+    position: relative;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-left: 180px;
+}
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 170px;
+    margin-top: 90px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.index {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    display: flex; /* Make the container flex to align items horizontally */
+    margin-left: 10px;
+}
+
+/* Style for the login and registration links */
+.index a {
+    margin-left: 30px; /* Add space between buttons */
+    text-decoration: none;
+    color: white;
+}
+
+.index input[type="submit"] {
+    margin-left: 0px;
+    font-family: futura;
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(37, 9, 101);
+    height: 50px;
+    width: 140px;
+    border-radius: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.index input[type="submit"]:hover {
+    background-color:rgb(36, 21, 125);
+    font-size: 24px;
+    border-radius: 25px;
+    color: white;
+}
+
+
+.Social_media {
+    margin-top: 1000px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+

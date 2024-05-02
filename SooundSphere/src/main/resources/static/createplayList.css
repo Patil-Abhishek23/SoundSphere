@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: futura;
+}
+
+input[type="submit"] {
+	background-color: white;
+	color: black;
+	height: 50px;
+	width: 120px;
+	transition: .5s;
+	border-radius: 15px;
+	font-family: futura;
+}
+
+input[type="submit"]:hover {
+	background-color: rgb(73, 174, 73);
+	color: white;
+	font-family: futura;
+	border-radius: 25px;
+}

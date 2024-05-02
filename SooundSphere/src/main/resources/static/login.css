@@ -1,0 +1,87 @@
+ body {
+ 
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczOsZ-C0krt0twrAsPgMP_67olP8Eiyn5B6jiIBWeNNwB3NuEHH0cGcZ7sh3VTpOaQbXYJx-Z6iqOGosBphQxTH0UfHcTRDSINmey6vj6CW5NPeFU3G7Aan7wgctVSVzVrHr2sNO5gTYwi5Td2LmCc3u0WKxDPB3kDy6rP_wVkW9vRNMzIGdem3DBpr2oUcXrL9IPYDJ0zW454AhoyHOZ2ujj6X73CXnMrmKQyvSUREdNhYCPi6h9V-NjE6HgGCiF3mg1zPHb4Stg9vEJ221y2OqfRPtnWAeX2agb2-8bOHAsSgUTg89JlLx1A4j-ItET2htGJ21mJRs4kmQ1uEQIsRZdKZW04logLH2mZx-lflZ2xEusK2_4km17zTd_fiQqBqzhjZ2YC72IiEnzuNQYqQK9HQnTuHZz0mqgFyCrMJ0IVKdRnfC8DNy01O3Q5mCsVxECzPihOJVU6Bf1fwuzrIqTMUxLwSTf7MRMff6LJcp88wh0N2N5C-IozT4TG15ZbNoCO5GvgNEvDLmQMvDD_nFRIuEFNDL9MBBKu9zQywgTx5aKVwlkg4XkeBlW4uE8XPe0pceYWTuy6ulm1JlOsADg2y_TLSapdRjquRu991n5BsgASRAF8mUzdP-ywqOQ1UKdTcrQS0ajMyLqnJjVoeboqNppQizFvcRjlb90jHTtAFcKRYzx0P8LKleWaNYvVOf_dI18vwzvmEUUlPocKmPZjbo1dbJJj7RVFSR8HhO2GGZkie0nh5XXVObcmRu5j55iFYbR4ipGdmv8nNOXQDYGvSk7iV5HuLqbSZ4wHvq3AUHkWCDAenKowJ8v8HIT7p884ez5LGzPVZgKrb869LUs70jNrZtzqYp-AH3YWY2Np1HCCVmOo8-yxn7n6hSynFUvFlVPurwNrKSOPEV6ioMUMBO=w512-h512-s-no-gm?authuser=0');
+            background-color: rgb(24,141,124);
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            font-family: futura;
+        }
+        .astro{
+            height: 180px;
+            margin-left: 408px;
+        }
+
+        form {
+            width: 300px;
+            height: 400px;
+           z-index:-1;
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 20px;
+            background-color:black;
+            margin-top: 20%;
+            border: solid black 2px;
+            color: white;
+            margin-left: 35%;
+            position: absolute;
+          
+            margin-left: 46%;
+            margin-top: 10%;
+            transform: translate(-50%,-42%);
+            
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+            font-family: futura;
+        }
+       
+        input[type="password"]:hover{
+            border:2px solid black;
+        }
+        input[type="email"]:hover{
+            border:2px solid black;
+        }
+
+        input[type="submit"] {
+            width: 50%;
+            padding: 10px;
+            border: solid black 3px;
+            font-size: 14px;
+            border-radius: 5px;
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            font-family: futura;
+            transition: .5s;
+        }
+
+        input[type="submit"]:hover {
+            
+            background-color: green;
+            color: white;
+            border: solid black 2px;
+            font-family: futura;         
+            border-radius: 25px;
+            font-size: 23px;
+            height: 55px;
+        }
+        

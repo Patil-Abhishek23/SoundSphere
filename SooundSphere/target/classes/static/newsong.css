@@ -1,0 +1,64 @@
+body {
+            background-color: black;
+            color: white;
+            font-family: Futura;
+            cursor: pointer;
+        }
+
+
+        .regi {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: 1px solid white;
+            background-color: white;
+            color: black;
+            font-family: futura;
+        }
+        input[type="submit"]{
+         width: calc(50% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid white;
+            background-color: white;
+            color: black;
+            font-family:futura;
+            transition:1s;
+            cursor: pointer;
+        }
+        
+          
+        input[type="submit"]:hover,
+        .backto:hover {
+            background-color: rgb(73, 174, 73);
+            color: white;
+            border-radius: 25px;
+           border-color: black;
+            width: 145px;
+            color:white;
+            font-size: 19px;
+
+
+
+        }
+
+        .backto {
+            height: 30px;
+            width: 40px;
+        }
+       

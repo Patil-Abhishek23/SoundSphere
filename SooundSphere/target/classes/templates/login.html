@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<title>Login</title>
+<link rel="stylesheet" type="text/css" th:href="@{/login.css}">
+</head>
+<body>
+	<img src="https://scotty.warpdrivetech.in/assets/hiring_assets/Astronaut_Header.png" class="astro">
+<div class="logipage">
+
+	<form action="/validate"  method="post">
+			
+		<h2>Login</h2>
+
+		<label>Email</label> 
+		<input type="email" name="email" required>
+		<p>
+
+			<label>Password</label> 
+			<input type="password" name="password" required>
+			<br>
+		<p>
+			<br>
+			<input type="submit" value="Login"> 
+			<br>
+			<br>
+			<a href="registration" style="color: white;">Sign-up</a>
+	</form>
+</div>
+
+	
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+.addi{
+	margin-left: 500px;
+	margin-top: 7%;
+}
+
+
+input[type="submit"]{
+	background-color: white;
+	color:black;
+	height: 50px;
+	width: 130px;
+	border-radius: 15px;
+	cursor: pointer;
+	font-size: 17px;
+	font-family: futura;
+	transition: 0.8s;
+	
+} 
+
+input[type="submit"]:hover {
+            background-color: rgb(73, 174, 73);
+            color: white;
+            border-radius: 25px;
+        }
+h1{
+	color:white;
+	font-family: futura;
+	
+}

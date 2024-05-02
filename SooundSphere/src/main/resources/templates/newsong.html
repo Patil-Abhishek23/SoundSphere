@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+  
+    <title>New Song</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/newsong.css}">
+</head>
+<body>
+  <form action="/addsong" method="post" class="regi">
+
+    <h1>New Song</h1>
+
+    <label>Name:</label>
+    <input type="text" name="Name" required>
+    <br>
+<p></p>
+ <label>Artist:</label>
+    <input type="text" name="Artist" required>
+    <br>
+   <p></p>
+   <label>genre:</label>
+   <input type="text" name="genre" required>
+   <br>
+  <p></p>
+  <label>Link:</label>
+  <input type="text" name="link" required>
+  <br>
+ <p></p>
+    <input type="submit" value="ADD SONG">
+    <br>
+
+<p>
+ <form action="/admin" method="post" class="admins">
+ <input type="submit" value="Admin Page" id="B2">
+ 
+ </form>s
+ 
+</body>
+</html>

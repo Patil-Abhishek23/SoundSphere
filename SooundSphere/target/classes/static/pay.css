@@ -1,0 +1,32 @@
+body{
+ font-family: futura;
+ background-color: black;
+ color: white;
+}
+
+.pays{
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+
+.buy-button{
+    height: 44px;
+    width: 154px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    transition: 1s;
+    font-size: 20px;
+    cursor:pointer;
+    font-family: futura;
+}
+.buy-button:hover{
+    background-color: rgb(73, 174, 73);
+    color: white;
+    border-radius: 45px;
+    font-family: futura;
+    font-size: 29px;
+    height: 49px;
+
+}
