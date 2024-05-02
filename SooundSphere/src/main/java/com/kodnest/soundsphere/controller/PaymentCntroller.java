@@ -32,7 +32,7 @@ public class PaymentCntroller {
 		int amount = 1;
 		Order order = null;
 		try {
-			RazorpayClient razorpay = new RazorpayClient("rzp_test_B8jutHumBsy3UO", "3fiGNuTLSKr7dRSNJBydOFq1");
+			RazorpayClient razorpay = new RazorpayClient("add razor your key", "add your razorpay value");
 
 			JSONObject orderRequest = new JSONObject();
 			orderRequest.put("amount", amount * 100); // amount in the smallest currency unit
@@ -60,12 +60,12 @@ public class PaymentCntroller {
 		try {
 			// Initialize Razorpay client with your API key and secret
 	
-			RazorpayClient razorpayClient = new RazorpayClient("rzp_test_B8jutHumBsy3UO", "3fiGNuTLSKr7dRSNJBydOFq1");
+			RazorpayClient razorpayClient = new RazorpayClient("add razor your key", "add your razorpay value");
 			// Create a signature verification data string
 			String verificationData = orderId + "|" + paymentId;
 
 			// Use Razorpay's utility function to verify the signature
-			boolean isValidSignature = Utils.verifySignature(verificationData, signature, "3fiGNuTLSKr7dRSNJBydOFq1");
+			boolean isValidSignature = Utils.verifySignature(verificationData, signature, "add your razorpay value");
 
 			return isValidSignature;
 		} catch (RazorpayException e) {
