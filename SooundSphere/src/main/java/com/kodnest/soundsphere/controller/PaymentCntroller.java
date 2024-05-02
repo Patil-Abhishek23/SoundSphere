@@ -60,12 +60,12 @@ public class PaymentCntroller {
 		try {
 			// Initialize Razorpay client with your API key and secret
 	
-			RazorpayClient razorpayClient = new RazorpayClient("add razor your key", "add your razorpay value");
+			RazorpayClient razorpayClient = new RazorpayClient("add razor your key", "add your razorpay secret");
 			// Create a signature verification data string
 			String verificationData = orderId + "|" + paymentId;
 
 			// Use Razorpay's utility function to verify the signature
-			boolean isValidSignature = Utils.verifySignature(verificationData, signature, "add your razorpay value");
+			boolean isValidSignature = Utils.verifySignature(verificationData, signature, "add your razorpay secret");
 
 			return isValidSignature;
 		} catch (RazorpayException e) {
