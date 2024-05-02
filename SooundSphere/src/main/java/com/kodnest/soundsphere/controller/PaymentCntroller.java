@@ -32,7 +32,7 @@ public class PaymentCntroller {
 		int amount = 1;
 		Order order = null;
 		try {
-			RazorpayClient razorpay = new RazorpayClient("add razor your key", "add your razorpay value");
+			RazorpayClient razorpay = new RazorpayClient("add razor your key", "add your razorpay secret");
 
 			JSONObject orderRequest = new JSONObject();
 			orderRequest.put("amount", amount * 100); // amount in the smallest currency unit
