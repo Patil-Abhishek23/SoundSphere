@@ -41,10 +41,10 @@ function createOrder() {
         .done(function(order) {
             order = JSON.parse(order);
             var options = {
-                "key": "rzp_test_B8jutHumBsy3UO",
+                "key": "add your razorpay key value",
                 "amount": order.amount_due.toString(),
                 "currency": "INR",
-                "name": "Tune Hub",
+                "name": "SoundSphere",
                 "description": "Test Transaction",
                 "order_id": order.id,
                 "handler": function (response) {
